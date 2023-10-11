@@ -45,7 +45,8 @@ Commands:
     Syntax : git init
 7. To check on which branch we are working
     Syntax : git branch
-
+8. log : see all commots
+    Syntax : git log
 Branch : help to work on diff features at a time.
 
 Pull request : request to merge the changes to main branch
