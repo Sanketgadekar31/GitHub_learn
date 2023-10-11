@@ -25,7 +25,7 @@ Git Status:
 3. staged : file is ready to be commited
 4. Unmodified : unchanged
 
-WorkFLow of files: U/M --> add (staged) --> commit  --> push
+WorkFLow of files: clone --> U/M --> add (staged) --> commit  --> push
 
 Commands:
 1. Git Clone: to clone the github repository to Local
@@ -47,6 +47,7 @@ Commands:
     Syntax : git branch
 8. log : see all commots
     Syntax : git log
+
 Branch : help to work on diff features at a time.
 
 Pull request : request to merge the changes to main branch
