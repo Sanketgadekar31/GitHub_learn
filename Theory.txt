@@ -1,0 +1,36 @@
+Git:
+- Install : https://git-scm.com/downloads
+- Version control system
+- help to track the history
+- popular, free & open source, fast & scalable
+- large amount of collaboration
+
+GitHub:
+- https://github.com/Sanketgadekar31
+- Website allow devlopers to store and manage their code using Git
+- Git folders called as Repository or Repo
+
+Remote - GitHub
+Local - Your PC/laptop
+
+cd = to change the directory
+ls = to list or view the files available in directory
+ls -a = It will show the hidden files as well
+
+Git Status:
+1. Untracted (U) : git don't know about the changes
+2. Modified (M) : chaged
+3. staged : file is ready to be commited
+4. Unmodified : unchanged
+
+FLow of files: U/M --> add (staged) --> commit
+
+Commands:
+1. Git Clone: to clone the github repository to Local
+    Syntax : git clone <https link>
+2. Git Status: show the changes you made
+    Syntax : git status 
+3. add : add new or chaged file in github 
+    Syntax : git add <file_name>     <-- it will add specific file
+             git add .               <-- it will all file
+4. commit
