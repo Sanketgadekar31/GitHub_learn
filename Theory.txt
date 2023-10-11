@@ -16,6 +16,8 @@ Local - Your PC/laptop
 cd = to change the directory
 ls = to list or view the files available in directory
 ls -a = It will show the hidden files as well
+cd .. = to change directory to previous one
+mkdir = make new directory 
 
 Git Status:
 1. Untracted (U) : git don't know about the changes
@@ -23,7 +25,7 @@ Git Status:
 3. staged : file is ready to be commited
 4. Unmodified : unchanged
 
-FLow of files: U/M --> add (staged) --> commit
+WorkFLow of files: U/M --> add (staged) --> commit  --> push
 
 Commands:
 1. Git Clone: to clone the github repository to Local
@@ -31,6 +33,17 @@ Commands:
 2. Git Status: show the changes you made
     Syntax : git status 
 3. add : add new or chaged file in github 
-    Syntax : git add <file_name>     <-- it will add specific file
-             git add .               <-- it will all file
-4. commit
+    Syntax : git add <file_name>            <-- it will add specific file
+             git add .                      <-- it will all file
+             git remote add origin <link>   <-- add new repo from local to remote
+4. commit : it will record the change  
+    Syntax : git commit m "<message>"
+5. Push : upload the local repo content to remote repo
+    Syntax : git push origin main    <-- file will be updated on main branch
+
+6. init : used to create new repo
+    Syntax : git init
+7. To check on which branch we are working
+    Syntax : git branch
+
+Branch : help to work on diff features at a time
