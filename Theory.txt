@@ -58,10 +58,11 @@ Fork : make a rough copy of other's project or repo
 
 Upload files to github using terminal and remote repo:
 1. git init
-2. git add remote <repo-link>
 2. git add .
 3. git commit -m "commit_name"
-4. git push -u origin main
+4. git branch -M main
+5. git remote add origin <url>
+6. git push -u origin main
 
 if error occur follow below steps:
 - git checkout -b main
