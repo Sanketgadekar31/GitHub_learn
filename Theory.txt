@@ -55,3 +55,17 @@ Pull request : request to merge the changes to main branch
 Git Conflict : merge conflict 
 
 Fork : make a rough copy of other's project or repo
+
+Upload files to github using terminal and remote repo:
+1. git init
+2. git add remote <repo-link>
+2. git add .
+3. git commit -m "commit_name"
+4. git push -u origin main
+
+if error occur follow below steps:
+- git checkout -b main
+- git pull origin main
+- git add .
+- git commit -m "Resolved conflicts"
+- git push origin main --force
